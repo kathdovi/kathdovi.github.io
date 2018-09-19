@@ -170,7 +170,7 @@ display:inline-block  !important;
     line-height: 26px;
     margin: auto;
 }
-.carousel-item:hover .carousel-caption {
+.carousel-img:hover + .carousel-caption {
     display: block !important;
 }
 
@@ -190,7 +190,4 @@ display:inline-block  !important;
 .endorsement {
     padding-top: 125px;
 }
-}
-.carousel-item img:hover {
-    opacity: 0.5;
 }
