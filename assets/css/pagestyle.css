@@ -1,0 +1,195 @@
+.headline {
+    color: #222;
+    font-size: 60px;
+    font-family: 'Noto Serif JP', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.back-button{
+    color: #222;
+    font-size: 30px;
+    font-family: 'Noto Serif JP', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.back-button a{
+    color: #222;
+}
+.back-button a:hover {
+    color: #FFC8D1;
+    text-decoration: none;
+}
+
+.line-break { 
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #222
+}
+
+.mobile-portfolio {
+   display: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.subheads {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 20px;
+    color: #222;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Noto Serif JP', sans-serif;
+    text-align: left; 
+
+}
+
+.carousel-item {
+    width: auto;
+    height: 650px;
+    max-height: 650px !important;
+    padding-right: 22%;
+    padding-left: 22%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.carousel-inner img{
+display:inline-block  !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+.karen-ditsch {
+    padding-top: 200px;
+}
+
+.vote {
+    padding-top: 130px;
+}
+
+@media screen and (max-width: 1155px) {
+  .karen-ditsch {
+    padding-top: 220px;
+  }
+
+  .vote {
+    padding-top: 180px;
+  } 
+
+  .endorsement {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+    .subheads {
+        width: 70%;
+    }
+
+    img {
+        width: 70%;
+    }
+
+    .carousel {
+       display: none;
+   }
+
+   .mobile-portfolio {
+       display: block;
+   }
+}
+
+@media screen and (max-width: 640px) {
+    .subheads {
+        width: 90%;
+    }
+
+    img {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+.karen-ditsch {
+    padding-top: 250px;
+}
+
+.vote {
+    padding-top: 220px;
+} 
+
+.endorsement {
+    padding-top: 125px;
+}
+}
+.carousel-item img:hover {
+    opacity: 0.5;
+}
+
+.carousel-caption {
+    font-family: 'Noto Serif JP', sans-serif;
+    display: none !important;
+    color: #222;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    margin: auto;
+}
+.carousel-item:hover .carousel-caption {
+    display: block !important;
+}
+
+.caption-box {
+    background-color: rgba(253, 251, 251, 0.90);
+}
+
+@media screen and (max-width: 960px) {
+.karen-ditsch {
+    padding-top: 250px;
+}
+
+.vote {
+    padding-top: 220px;
+} 
+
+.endorsement {
+    padding-top: 125px;
+}
+}
+.carousel-item img:hover {
+    opacity: 0.5;
+}
