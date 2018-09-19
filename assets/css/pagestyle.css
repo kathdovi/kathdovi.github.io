@@ -12,7 +12,7 @@
     font-size: 30px;
     font-family: 'Noto Serif JP', sans-serif;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
     text-decoration: none;
 }
 
@@ -27,8 +27,8 @@
 
 .line-break { 
     width: 80%;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 32px;
+    margin-bottom: 20px;
     background-color: #222
 }
 
