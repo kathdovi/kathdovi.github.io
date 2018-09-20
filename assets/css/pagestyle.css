@@ -54,9 +54,9 @@ img {
     width: 50%;
     padding-bottom: 20px;
     color: #222;
-    font-size: 20px;
-    line-height: 30px;
-    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
     text-align: left; 
 
 }
@@ -189,7 +189,7 @@ display:inline-block  !important;
 }
 
 .carousel-caption {
-    font-family: 'Noto Serif JP', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: none !important;
     color: #222;
     width: 50%;
