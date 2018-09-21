@@ -178,10 +178,6 @@ display:inline-block  !important;
        position: relative;
    }
 
-   .contact-icon {
-       display: block;
-       visibility: visible;
-   }
 }
 
 @media screen and (max-width: 640px) {
