@@ -7,6 +7,7 @@
     padding-bottom: 10px;
 }
 
+
 .back-button{
     color: #222;
     font-size: 30px;
@@ -20,9 +21,26 @@
     width: 100%;
 }
 
+.back-button.mobile {
+    font-size: 25px;
+    position: relative;
+    line-height: 40px;
+    display: none;
+}
+
+.back-button.mobile.contact {
+    position: fixed;
+    bottom: 10px;
+    display: none;
+}
 
 .back-button a{
+    padding-right: 20px;
     color: #222;
+}
+
+#last {
+    padding-right: 0px;
 }
 .back-button a:hover {
     color: #FFC8D1;
@@ -155,6 +173,10 @@ display:inline-block  !important;
   .endorsement {
     padding-top: 50px;
   }
+
+  .house {
+
+  }
 }
 
 @media screen and (max-width: 786px) {
@@ -173,11 +195,19 @@ display:inline-block  !important;
    .mobile-portfolio {
        display: block;
    }
-
+   .back-button {
+       display: none;
+   }
    .back-button.graphics {
        position: relative;
    }
+   .back-button.mobile {
+       display: block;
+   }
 
+   .back-button.mobile.contact {
+       display: block;
+   }
 }
 
 @media screen and (max-width: 640px) {
@@ -187,6 +217,10 @@ display:inline-block  !important;
 
     img {
         width: 90%;
+    }
+
+    .line-break {
+        margin-top: 16px;;
     }
 }
 
