@@ -15,8 +15,6 @@
     padding-top: 20px;
     padding-bottom: 20px;
     text-decoration: none;
-    position: fixed;
-    bottom: 10px;
     text-align: center;
     width: 100%;
 }
@@ -28,11 +26,6 @@
     display: none;
 }
 
-.back-button.mobile.contact {
-    position: fixed;
-    bottom: 10px;
-    display: none;
-}
 
 .back-button a{
     padding-left: 10px;
@@ -303,6 +296,14 @@ display:inline-block  !important;
 .endorsement {
     padding-top: 125px;
 }
+
+.tall {
+    padding-top: 120px;
+}
+
+.house {
+    padding-top: 150px;
+}
 }
 
 .caption-links {
@@ -338,4 +339,8 @@ display:inline-block  !important;
 
 img.web-c {
     margin-bottom: 0;
+}
+
+.padding {
+    height: 330px;
 }
