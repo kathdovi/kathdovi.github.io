@@ -82,6 +82,7 @@ body {
     }
     
 }
+
 .paragraph {
     padding: 20px;
     color: white;
@@ -122,4 +123,5 @@ body {
     font-family: 'Noto Serif JP', sans-serif;
     text-align: left; 
     margin-top: 30px;
+    }
 }
