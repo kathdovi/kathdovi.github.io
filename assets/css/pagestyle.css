@@ -336,6 +336,19 @@ display:inline-block  !important;
     line-height: 40px;
     margin: auto;
 }
+
+.links {
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+    font-weight: bold;
+
+}
+
+.links:hover {
+    color: #FFC8D1;
+    text-decoration: none;
+}
+
 .caption-links:hover {
     color: #FFC8D1;
     text-decoration: none;
